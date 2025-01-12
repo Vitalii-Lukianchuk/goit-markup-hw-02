@@ -13,28 +13,37 @@ ul {
 }
 
 /*------------HEADER------------*/
-
-.nav-logo {
-    color: #2E2F42;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em
+.nav {
+    font-family: "Raleway", sans-serif;
 }
 
-.nav-logo-kolor {
-    color: #4D5AE5;
-    font-family: Raleway;
+.nav-logo:hover,
+.nav-logo:focus {
+    color: #404bbf;
+}
+
+.nav-color-studio {
+    color: #2E2F42;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.nav-menu-link {
+.nav-color-web {
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus {
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -43,11 +52,13 @@ ul {
 
 .contacts-item:hover,
 .contacts-item:focus {
-    font-family: Roboto;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 /*---------------SECTION---1------------*/
@@ -61,12 +72,19 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     font-family: inherit;
+    cursor: pointer;
 }
 
 /*----------------SECTIO---2------------*/
@@ -95,7 +113,9 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .team-item {
@@ -107,7 +127,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .team-role {
@@ -123,7 +143,9 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -147,22 +169,23 @@ ul {
 }
 
 .footer-logo {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
 
 .footer-color {
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
 .footer-text {
     color: #F4F4FD;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;

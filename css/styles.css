@@ -15,7 +15,7 @@ ul {
 /*------------HEADER------------*/
 .nav-logo {
     font-family: "Raleway", sans-serif;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -25,7 +25,7 @@ ul {
 
 .nav-color-web {
     font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
+    color: #2e2f42;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -38,14 +38,18 @@ ul {
     color: #2E2F42;
 }
 
-.nav-menu-item:hover,
-.nav-menu-item:focus {
-    color: #404bbf;
+.nav-menu-item {
+    color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em
+}
+
+.nav-menu-item:hover,
+.nav-menu-item:focus {
+    color: #404bbf;
 }
 
 .contacts {
@@ -90,7 +94,7 @@ ul {
 
 .hero-button:hover,
 .hero-button:focus {
-    color: #404BBF;
+    background-color: #404BBF
 }
 
 /*----------------SECTIO---2------------*/

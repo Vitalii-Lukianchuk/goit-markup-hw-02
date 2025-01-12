@@ -38,7 +38,7 @@ ul {
     color: #2E2F42;
 }
 
-.nav-menu-item {
+.nav-menu-link {
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -47,8 +47,8 @@ ul {
     letter-spacing: 0.02em
 }
 
-.nav-menu-item:hover,
-.nav-menu-item:focus {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
     color: #404bbf;
 }
 
@@ -56,15 +56,19 @@ ul {
     font-style: normal;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
-    color: #404bbf;
+.contacts-item {
+    color: #434455;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+    color: #404bbf;
 }
 
 /*---------------SECTION---1------------*/
